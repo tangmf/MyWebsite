@@ -12,24 +12,5 @@ namespace MyWebsite.Controllers
         {
             return View();
         }
-        public IActionResult Art()
-        {
-            return View();
-        }
-
-        public IActionResult Games()
-        {
-            return View();
-        }
-
-        public IActionResult Websites()
-        {
-            return View();
-        }
-
-        public IActionResult Others()
-        {
-            return View();
-        }
     }
 }
