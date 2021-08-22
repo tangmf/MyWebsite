@@ -12,5 +12,9 @@ namespace MyWebsite.Controllers
         {
             return View();
         }
+        public IActionResult Art()
+        {
+            return View();
+        }
     }
 }
