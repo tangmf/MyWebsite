@@ -16,5 +16,10 @@ namespace MyWebsite.Controllers
         {
             return View();
         }
+
+        public IActionResult Websites()
+        {
+            return View();
+        }
     }
 }
