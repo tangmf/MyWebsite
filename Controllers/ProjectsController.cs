@@ -21,5 +21,10 @@ namespace MyWebsite.Controllers
         {
             return View();
         }
+
+        public IActionResult Others()
+        {
+            return View();
+        }
     }
 }
