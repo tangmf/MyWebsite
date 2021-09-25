@@ -1,7 +1,60 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Projects";
 }
 
-<h1>Projects</h1>
+
+<!-- Main Section-->
+<section class="page-section portfolio">
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Portfolio Section Heading-->
+        <br />
+        <br />
+        <h2 class="page-section-heading text-center text-secondary mb-0">Projects</h2>
+        <br />
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Portfolio Grid Items-->
+        <div class="row justify-content-center">
+            <!-- Portfolio Item 1-->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <a href="~/Home/About">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Websites</div>
+                        </div>
+                        <img class="img-fluid" src="~/Images/websiteicon.png" alt="Websites" />
+                    </div>
+                </a>
+
+            </div>
+            <!-- Portfolio Item 2-->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <a href="~/Home/About">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Art</div>
+                        </div>
+                        <img class="img-fluid" src="~/Images/articon.png" alt="Art" />
+                    </div>
+                </a>
+            </div>
+            <!-- Portfolio Item 3-->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <a href="~/Projects/Others">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Others</div>
+                        </div>
+                        <img class="img-fluid" src="~/Images/othericon.png" alt="Others" />
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+</section>
